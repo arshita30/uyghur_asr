@@ -51,10 +51,21 @@ The model is built by fine-tuning `openai/whisper-small` using the Hugging Face 
     pip install -r requirements.txt
     ```
 
-3.  **Data Setup:**
-    * The complete dataset is included within this repository.
-    * The script is already configured with the correct relative paths to use this data.
-    * After cloning the repository, no data downloads or path configuration changes are required. The project is ready to run.
+3.  **Data Setup**
+
+The dataset for this project is provided as a single compressed file (e.g., `data.zip`) within this repository.
+
+    a. Unzip the File
+        Before running the notebook, you **must unzip this file**. This will create a directory containing the following:
+        * `train.csv`
+        * `test.csv`
+        * `sample.csv`
+        * `wavs/` (a folder containing all the audio files)
+
+
+
+    b. Ready to Go
+        The Jupyter Notebook is already configured to read data from this unzipped directory. Once the file is unzipped, no further setup or path changes are needed in the code.
 ---
 
 ## ⚙️ How to Run
