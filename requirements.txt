@@ -1,0 +1,14 @@
+# Core ML & NLP Frameworks
+torch
+transformers
+datasets
+evaluate
+accelerate
+
+# Data & Audio Processing
+pandas
+librosa
+
+# Metrics & Logging
+jiwer
+tensorboard
